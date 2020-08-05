@@ -1,0 +1,43 @@
+body {
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+
+/*DESKTOP VERSION*/
+@media (min-width: 992px) {
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 20px;
+		color: #FFFFFF !important;
+	}
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid white;
+		width: 60%;
+		margin: auto;
+		padding-bottom: 3px;
+		margin-bottom: -6px;
+	}
+}
+
+.contact h4 {
+	margin: 40px 0;
+}
+
+.contact {
+	margin-bottom: 50px;
+	margin-top: 100px;
+	width: 850px;
+}
+
+.containercontact {
+	text-align: center;
+}
+
+.containersend {
+	width: 850px;
+	margin-bottom: 200px;
+	text-align: center;
+}

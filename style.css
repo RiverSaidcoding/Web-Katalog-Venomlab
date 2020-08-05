@@ -1,0 +1,423 @@
+*{max-width:100%;margin: 0; padding: 0;}
+body {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.mt-5,
+.my-5 {
+  margin-top: 5rem !important;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type='telephone'],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containered {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.new-footer{
+  background-color: rgb(53, 53, 53);
+  height: 50px;
+  padding: 30px 0px 60px 0px;
+  font-size: 13px;
+  color: rgb(184, 184, 184);
+}
+.margin-auto{
+  margin: 0 auto;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+/*DESKTOP VERSION*/
+
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #ffffff !important;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+  }
+}
+
+/* carousel */
+.new-weare{
+  text-align: left;
+  font-size: 25px;
+}
+.new-cp > .btn-new{
+  text-align: left;
+}
+.new-cp > .btn-new a{
+  margin: 0 10px 0px 0px;
+}
+.new-cp{
+  right: 10%;
+  left: 65%;
+  top: 30%;
+}
+.carousel-item .w-100{
+    height:100%;
+}
+.carousel-item .display-4 {
+  color: white;
+  text-align: left;
+  margin-top: -250px;
+  font-size: large;
+  margin-left: 700px;
+}
+
+.carousel-item .tombol {
+  float: right;
+  margin-right: 30px;
+}
+
+/* akhir carousel */
+
+/* SERVICE */
+
+
+
+.design-service {
+  margin: 60px 0;
+  padding-top:100px;
+}
+
+
+.img-service {
+  width: 100px;
+  height: 100px;
+  /* height: 150px; */
+  border: 1px;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 1px;
+}
+
+.ket-service {
+  height: 50px;
+  font-size: 11px;
+}
+
+/* PROJECT */
+.featured-project {
+  margin: 50px 0;
+}
+
+.featured-project .btn {
+  margin-top: 30px;
+}
+.on-res{
+  display: none;
+}
+/* order proses */
+.process h4 {
+  margin: 40px 0;
+}
+
+.process {
+  background-image: url('images/clientsaysbg.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.ket-order {
+  height: 100px;
+  font-size: 12px;
+}
+
+.img-order {
+  width: 50px;
+  height: 50px;
+  border: 1px;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 1px;
+}
+
+/* ket get */
+.containerget {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+
+.containeryt {
+  margin: auto;
+}
+/* youtube */
+.responsive-embed-youtube{
+  display:block; 
+  width: 40%; 
+  margin: 0 auto;
+}
+
+/* CLIENT */
+.clien1 {
+  background-color: transparent;
+  outline-style: none;
+}
+
+.carousel-item {
+  background-image: url(images/bgclient.png);
+  height: 80%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .foot {
+  display: flex;
+}
+
+.container-contact {
+  width: 800%;
+  background-color: grey;
+}
+
+/* about */
+.img-about {
+  width: 200px;
+  margin: 0 8px;
+}
+
+.about {
+  height: 50px;
+  background-color: gray;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgb(53, 53, 53);
+  color: rgb(184, 184, 184);
+  font-size: 13px;
+}
+
+
+/* TOMBOLS MENU */
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Medium.ttf');
+}
+.btn-venom.active {
+  background-color: #ff8800;
+  color: #000;
+  font-family: 'Gotham';
+}
+
+.btn-venom.active:hover {
+  background-color: rgb(211, 211, 211);
+  color: #000;
+  
+}
+
+.btn-venom {
+  background-color: rgb(211, 211, 211);
+  color: #000;
+  margin: 0 3px;
+  padding: 5px 20px;
+}
+
+.btn-venom:hover {
+  background-color: #ff8800;
+}
+
+.img-project {
+  transition: 1s;
+  width: 100%;
+  /* height: 100px; */
+}
+
+.projects {
+  margin-top: 50px;
+}
+
+.col-md-4 {
+  padding: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+
+.link:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 5px 40px;
+}
+
+.image {
+  width: 800px;
+}
+
+/*media Query*/
+@media (max-width: 768px) {
+  /*Index*/
+  .new-weare{
+    text-align: left;
+    font-size: 13px;
+  }
+  .new-cp > .btn-new{
+    text-align: left;
+  }
+  .new-cp > .btn-new a{
+    margin: 0;
+    font-size: 10px;
+  }
+  .new-cp{
+    right: 10%;
+    left: 45%;
+    top: 0%;
+  }
+  .new-ci{
+    display: none!important;
+  }
+ #demo{
+   margin-top: 70px;
+ }
+ .responsive-embed-youtube {
+  width: 80%;
+ } 
+ .p-0 > img{
+   width: 100%;
+ }
+ .off-res{
+   display: block;
+ }
+ .on-res{
+   display: none;
+ }
+ .row{
+   margin: 0;
+ }
+
+ /* Portofolio */
+ .d-flex{
+   display: block!important;
+ }
+ .d-flex a{
+   margin-top: 10px;
+ }
+ .btn-venom{
+  padding: 7px 14px;
+  font-size: 12px;
+ }
+}
